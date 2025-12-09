@@ -25,13 +25,20 @@ The goal is to show not just technical ability, but *data storytelling* — how 
 
 ## 📊 Featured Projects
 
-### 1. Revenue Performance Dashboard (Power BI)
-**Goal:** Show MoM and YoY revenue trends with branch-level segmentation.  
+  ### 1. Revenue Performance Dashboard (Power BI)
+
+**Goal:** Show month-over-month (MoM) and year-over-year (YoY) revenue trends with business-unit and regional segmentation.
+
 **Highlights:**
-- Built DAX measures for month-over-month and year-over-year variance.  
-- Added dynamic slicers for date and region.  
-- Integrated Excel and SQL sources for consistency checks.  
-**Files:** `/PowerBI/Revenue_Performance_Dashboard.pbix`
+- Built DAX measures for Total Revenue, Budget Variance %, and YoY Growth %.
+- Added slicers for Year, Business Unit, and Month to enable flexible analysis.
+- Compared Actual vs Budget revenue using a combo chart.
+- Included doughnut and trend visuals for an executive-friendly overview.
+
+**Files:**
+- Data source (Excel): `/data/Revenue_Dashboard_Data.xlsx`
+- Power BI report: `/PowerBI/Revenue_Performance_Dashboard.pbix`
+
 
 ---
 
